@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tiukka sivu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  <script src="js/epic.js"></script>
+</head>
+<body>
+  <script type="text/javascript" src="js/epic.js"></script>
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Aloitus</a></li>
+        <li><a>Toinen olemanton linkki</a></li>
+        <li><a>MOI Roni miten menee?</a></li>
+        <li><a href="login.php">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container text-center">
+    <h1 id="kuvaus0">Monta valokuvajuttua!!</h1>
+</div>
+<div class="jumbotron">
+    <div class="col-sm-12" align="middle" >
+        <img id="pic0"  src="img/1.png" alt="picture0">
+    </div>
+    
+</div>
+  
+<div id="row1" class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div id="sarja1" onclick="getdata1()" class="col-sm-3">
+      <h2>sarja 1</h2>
+    </div>
+    <div id="sarja2" onclick="getdata2()"  class="col-sm-3">
+      <h2>sarja 2</h2>
+    </div>
+    <div id="sarja3" onclick="getdata3()" class="col-sm-3">
+      <h2>sarja 3</h2>
+    </div>
+    <div id="sarja4" onclick="getdata4()" class="col-sm-3">
+      <h2>sarja 4</h2>
+    </div>
+    
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <p id="kuvaus1">Tekstiä tässä</p>
+      <img src="img/1.png" id="pic1" onclick="plop('pic1','kuvaus1')" class="img-responsive" alt="kuva1" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p id="kuvaus2">Tekstiä tässä</p>
+      <img src="img/2.png" onclick="plop('pic2','kuvaus2')" id="pic2" class="img-responsive" alt="kuva2" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p id="kuvaus3">Tekstiä tässä</p>
+      <img src="img/3.png" onclick="plop('pic3','kuvaus3')" id="pic3" class="img-responsive" alt="kuva3" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p id="kuvaus4">Tekstiä tässä</p>
+      <img src="img/4.png" id="pic4" onclick="plop('pic4','kuvaus4')" class="img-responsive" alt="kuva4" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<footer class="container-fluid text-center">
+    <div class="col-sm-3">
+        <p>tekstiä</p>
+    </div>
+    <div class="col-sm-3">
+        <p>Lisää tekstiä</p>
+    </div>
+  
+  
+</footer>
+
+</body>
+</html>

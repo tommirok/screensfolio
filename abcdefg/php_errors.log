@@ -1,0 +1,15 @@
+[11-May-2017 07:44:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/abcdefg/php/data.php on line 7
+[11-May-2017 07:44:13 UTC] PHP Stack trace:
+[11-May-2017 07:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/abcdefg/php/api.php:0
+[11-May-2017 07:44:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/abcdefg/php/data.php on line 7
+[11-May-2017 07:44:53 UTC] PHP Stack trace:
+[11-May-2017 07:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/abcdefg/php/api.php:0
+[11-May-2017 07:44:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/abcdefg/php/data.php on line 7
+[11-May-2017 07:44:55 UTC] PHP Stack trace:
+[11-May-2017 07:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/abcdefg/php/api.php:0
+[11-May-2017 07:45:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/abcdefg/php/data.php on line 7
+[11-May-2017 07:45:01 UTC] PHP Stack trace:
+[11-May-2017 07:45:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/abcdefg/php/api.php:0
+[11-May-2017 07:50:31 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/abcdefg/php/data.php on line 7
+[11-May-2017 07:50:31 UTC] PHP Stack trace:
+[11-May-2017 07:50:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/abcdefg/php/api.php:0
