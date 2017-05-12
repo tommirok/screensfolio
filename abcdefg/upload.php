@@ -44,7 +44,7 @@ if ($uploadOk == 0) {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         $juu=basename( $_FILES["fileToUpload"]["name"]);
         $id= $_POST["id"];
-        $otsikko=$_POST["name"];
+        $otsikko=mysqli_real_escape_string($_POST["name"]);
         tosql($juu, $id, $otsikko);
         echo "<script> alert('kuva ladattu') </script>";
         header("location: selectfiles.php");
